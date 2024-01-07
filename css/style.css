@@ -1,0 +1,164 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Merriweather:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* common style starts here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  width: 83%;
+  max-width: 1320px;
+  margin: 20px auto;
+}
+
+/* common style ends here */
+
+/* header section starts here */
+.banner {
+  height: 600px;
+  background-image: url("../images/banner-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 16px; */
+}
+
+.banner h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.banner h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+/* header section ends here */
+
+/*  Off section starts here */
+.off-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.off-section .off-heading * {
+  margin-top: 10px;
+}
+
+.off-section .off-heading h1 {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 73px;
+  font-weight: 700;
+}
+
+.off-section .off-heading p {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.off-section .off-heading h2 {
+  color: #070211;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.off-section .off-image {
+  width: 733px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+/*  Off section ends here */
+
+/* Welcome section starts here */
+.welcome-section {
+  height: 600px;
+  background-image: url("../images/vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.welcome-section-text{
+
+}
+
+.welcome-section .welcome-section-text {
+    width: 578px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content:flex-start; */
+  text-align: left;
+
+}
+
+.welcome-section .welcome-section-text h2 {
+  color: #fff;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+
+}
+
+.welcome-section .welcome-section-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+
+}
+
+.welcome-section .welcome-section-text button {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.welcome-section .welcome-section-image {
+  display: flex;
+  width: 319.83px;
+  height: 464.662px;
+  padding: 0.008px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.welcome-section .welcome-section-image img{
+    width: 100%;
+}
+
+/* Welcome section ends here */
