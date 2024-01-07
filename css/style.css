@@ -5,6 +5,8 @@
 * {
   padding: 0;
   margin: 0;
+  border: none;
+  outline: none;
   box-sizing: border-box;
 }
 
@@ -105,17 +107,14 @@ body {
   justify-content: space-around;
 }
 
-#welcome{
-    padding: 30px 0 80px 0;
+#welcome {
+  padding: 30px 0 80px 0;
 }
 
-
-
 .welcome-section .welcome-section-text {
-    width: 578px;
+  width: 578px;
   display: flex;
   flex-direction: column;
-
 }
 
 .welcome-section .welcome-section-text h2 {
@@ -124,7 +123,6 @@ body {
   font-weight: 900;
   line-height: 88px;
   letter-spacing: 7.04px;
-
 }
 
 .welcome-section .welcome-section-text p {
@@ -133,7 +131,6 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-
 }
 
 .welcome-section .welcome-section-text button {
@@ -144,7 +141,6 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   background-color: transparent;
-  border: none;
 }
 
 .welcome-section .welcome-section-image {
@@ -152,11 +148,66 @@ body {
   width: 319.83px;
   height: 464.662px;
   padding: 0.008px 0px 0px 0px;
-
 }
 
-.welcome-section .welcome-section-image img{
-    width: 100%;
+.welcome-section .welcome-section-image img {
+  width: 100%;
 }
 
 /* Welcome section ends here */
+
+/* address section starts here */
+#address{
+    padding: 10px 0 80px 0;
+}
+
+.address-section {
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address-section .address-section-text {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.address-section .address-section-text p {
+  color: #070211;
+}
+
+.address-section .address-section-text p span {
+  color: #f00;
+}
+
+.address-section .address-section-text button {
+  /* display: inline-flex; */
+  padding: 16px 32px;
+  /* justify-content: center;
+  align-items: center; */
+  /* gap: 10px; */
+  width: 180px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px auto;
+}
+/* address section ends here */
