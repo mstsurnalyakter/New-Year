@@ -292,6 +292,11 @@ body {
 
 /* Holidays section starts here */
 
+#holidays {
+  /* padding: 10px 0 80px 0; */
+  margin-bottom: 700px;
+}
+
 .holidays-section {
   width: 83%;
   display: flex;
@@ -332,7 +337,6 @@ body {
 }
 
 .holidays-section .holidays-text p {
-  /* width: 1550px; */
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -349,7 +353,6 @@ body {
 }
 
 .holidays-section .holidays-image .holidays-image1 {
-  /* height: 433px; */
   position: relative;
   z-index: 1;
 }
@@ -358,10 +361,7 @@ body {
   position: absolute;
   z-index: 3;
   width: 206.841px;
-  /* width: 100%; */
-  /* width: 206.841px; */
   transform: translate(230px, 103px);
-  /* height: 206.841px; */
 }
 
 .holidays-section .holidays-image .holidays-image1 .holiday1-image {
@@ -369,33 +369,77 @@ body {
   z-index: 2;
   width: 357px;
   transform: translate(303px, 40px);
-  /* height: 433px; */
   border-radius: 16px 16px 0px 0px;
 }
 
 .holidays-section .holidays-image .holidays-image2 {
-  /* height: 433px; */
-  /* position: relative;
-  z-index: 1; */
+  margin-bottom: 20px;
   position: relative;
-   z-index: 1;
+  z-index: 1;
 }
 
 .holidays-section .holidays-image .holidays-image2 .holiday2 {
   width: 600px;
-  /* width: 100%; */
   height: 500px;
   position: absolute;
   transform: translate(-630px, 150px);
   z-index: 4;
-  /* background-color: transparent; */
 }
 
-.holidays-section .holidays-image .holidays-image2 .holiday3{
-  /* width: 100%; */
-position: absolute;
-transform: translate(-660px, 400px);
-z-index: 3;
+.holidays-section .holidays-image .holidays-image2 .holiday3 {
+  position: absolute;
+  transform: translate(-660px, 400px);
+  z-index: 3;
 }
 
 /* Holidays section ends here */
+
+/* Portfolio section starts here */
+#portfolio {
+  padding: 10px 0 80px 0;
+}
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-section .portfolio-text {
+  width: 744px;
+  transform: translateX(15px);
+  margin-bottom: 10px;
+}
+
+.portfolio-section .portfolio-text *{
+  margin-bottom: 20px;
+}
+
+.portfolio-section .portfolio-text h5 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.portfolio-section .portfolio-text h2 {
+  color: #070211;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.portfolio-section .portfolio-text p {
+  color: rgba(7, 2, 17, 0.6);
+   font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.portfolio-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+/* Portfolio section ends here */
