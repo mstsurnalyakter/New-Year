@@ -209,6 +209,10 @@ body {
 
 /* Coming Soon section starts here  */
 
+#coming-soon{
+   padding: 10px 0 80px 0;
+}
+
 .coming-soon {
   height: 482px;
   display: flex;
@@ -248,7 +252,8 @@ body {
 
 .coming-soon .coming-soon-section2 {
   width: 385px;
-  height: 463px;
+  height: 385px;
+  /* height: 463px; */
   border: 13px solid #f00;
   border-radius: 50%;
   display: flex;
@@ -261,6 +266,30 @@ body {
   /* height: 364.844px; */
   /* border-radius: 364.844px;
 background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat; */
+}
+
+.coming-soon .coming-soon-section3 {
+  width: 230px;
+}
+
+.coming-soon .coming-soon-section3 h4 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.coming-soon .coming-soon-section3 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.coming-soon .coming-soon-section3 .coming-soon-image {
+  width: 140px;
+  height: 140px;
 }
 
 /* Coming Soon section ends here  */
