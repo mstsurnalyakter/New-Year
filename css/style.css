@@ -14,7 +14,6 @@
 
 body {
   background: #fff;
-  /* max-width: 1600px; */
   font-family: "Merriweather", serif;
 }
 
@@ -22,6 +21,11 @@ body {
   width: 83%;
   max-width: 1320px;
   margin: 20px auto;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
 }
 
 /* common style ends here */
@@ -35,7 +39,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border-radius: 16px; */
 }
 
 .banner h3 {
@@ -79,7 +82,6 @@ body {
 .off-section .off-heading p {
   color: #f00;
   text-align: center;
-  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 500;
 }
@@ -118,7 +120,6 @@ body {
   width: 578px;
   display: flex;
   flex-direction: column;
-
 }
 
 .welcome-section .welcome-section-text h2 {
@@ -131,7 +132,6 @@ body {
 
 .welcome-section .welcome-section-text p {
   color: rgba(255, 255, 255, 0.8);
-  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -145,8 +145,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   background-color: transparent;
-  transform: translate(-220px , 30px);
-
+  transform: translate(-220px, 30px);
 }
 
 .welcome-section .welcome-section-image {
@@ -191,7 +190,7 @@ body {
 }
 
 .address-section .address-section-text p {
-  color: #070211;
+  color: rgb(7, 2, 17);
 }
 
 .address-section .address-section-text p span {
@@ -224,7 +223,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* gap: 10px; */
 }
 
 .coming-soon .coming-soon-section1 {
@@ -250,8 +248,6 @@ body {
 
 .coming-soon .coming-soon-section1 p {
   color: rgba(7, 2, 17, 0.6);
-  font-family: "Inter", sans-serif;
-  font-size: 17px;
   font-weight: 400;
   line-height: 32px;
 }
@@ -283,8 +279,6 @@ body {
 
 .coming-soon .coming-soon-section3 p {
   color: rgba(7, 2, 17, 0.6);
-  font-family: "Inter", sans-serif;
-  font-size: 17px;
   font-weight: 400;
   line-height: 32px;
 }
@@ -299,7 +293,6 @@ body {
 /* Holidays section starts here */
 
 #holidays {
-  /* padding: 10px 0 80px 0; */
   margin-bottom: 700px;
 }
 
@@ -309,7 +302,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: pink; */
 }
 
 .holidays-section .holidays-text {
@@ -345,8 +337,6 @@ body {
 .holidays-section .holidays-text p {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-family: "Inter", sans-serif;
-  font-size: 17px;
   font-weight: 500;
   line-height: 32px;
 }
@@ -435,8 +425,6 @@ body {
 
 .portfolio-section .portfolio-text p {
   color: rgba(7, 2, 17, 0.6);
-  font-family: "Inter", sans-serif;
-  font-size: 17px;
   font-weight: 400;
   line-height: 32px;
 }
@@ -448,6 +436,16 @@ body {
   gap: 10px;
   flex-wrap: wrap;
 }
+
+.portfolio-content .portfolio-image img {
+  opacity: 0.7;
+  transition: all linear 2ms;
+}
+
+.portfolio-content .portfolio-image img:hover {
+  opacity: 1;
+}
+
 /* Portfolio section ends here */
 
 /* Subscribe section starts here */
@@ -479,8 +477,6 @@ body {
 .subscribe-section .subscribe-text p {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-family: "Inter", sans-serif;
-  font-size: 17px;
   font-weight: 400;
   line-height: 32px;
 }
@@ -517,7 +513,6 @@ body {
 /* Footer section starts here */
 
 #footer {
-  /* max-width: 1600px; */
   width: 100%;
   height: 609px;
   background: #070211;
@@ -540,15 +535,10 @@ body {
 }
 
 .footer-content .footer-section1 {
-  /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-/* .footer-content .footer-section1 *{
-  margin-bottom: 5px;
-} */
 
 .footer-content .footer-section1 .left p {
   color: #fff;
@@ -558,7 +548,6 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  /* justify-content: space-around; */
 }
 
 .footer-content .footer-section1 .right p a {
@@ -566,7 +555,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px;
 }
 
 hr {
@@ -588,15 +577,14 @@ hr {
   height: 64px;
 }
 
-.footer-content .footer-section3{
+.footer-content .footer-section3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.footer-content .footer-section3 p{
-
-color: #fff;
+.footer-content .footer-section3 p {
+  color: #fff;
 }
 
 /* Footer section ends here */
