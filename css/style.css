@@ -7,11 +7,14 @@
   margin: 0;
   border: none;
   outline: none;
+  text-decoration: none;
+  list-style: none;
   box-sizing: border-box;
 }
 
 body {
   background: #fff;
+  /* max-width: 1600px; */
   font-family: "Merriweather", serif;
 }
 
@@ -115,6 +118,7 @@ body {
   width: 578px;
   display: flex;
   flex-direction: column;
+
 }
 
 .welcome-section .welcome-section-text h2 {
@@ -141,6 +145,8 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   background-color: transparent;
+  transform: translate(-220px , 30px);
+
 }
 
 .welcome-section .welcome-section-image {
@@ -445,7 +451,7 @@ body {
 /* Portfolio section ends here */
 
 /* Subscribe section starts here */
-#subscribe{
+#subscribe {
   padding: 10px 0 80px 0;
 }
 .subscribe-section {
@@ -461,7 +467,6 @@ body {
 .subscribe-section * {
   margin-bottom: 20px;
 }
-
 
 .subscribe-section .subscribe-text h1 {
   color: #070211;
@@ -508,3 +513,90 @@ body {
 }
 
 /* Subscribe section ends here */
+
+/* Footer section starts here */
+
+#footer {
+  /* max-width: 1600px; */
+  width: 100%;
+  height: 609px;
+  background: #070211;
+}
+
+.footer-content {
+  width: 83%;
+  height: 100%;
+  max-width: 1320px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content > section {
+  width: 100%;
+  height: 200px;
+}
+
+.footer-content .footer-section1 {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .footer-content .footer-section1 *{
+  margin-bottom: 5px;
+} */
+
+.footer-content .footer-section1 .left p {
+  color: #fff;
+}
+
+.footer-content .footer-section1 .right p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* justify-content: space-around; */
+}
+
+.footer-content .footer-section1 .right p a {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
+hr {
+  width: 100%;
+  max-width: 1320px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.footer-content .footer-section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-content .footer-section2 a img {
+  width: 64px;
+  height: 64px;
+}
+
+.footer-content .footer-section3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-content .footer-section3 p{
+
+color: #fff;
+}
+
+/* Footer section ends here */
