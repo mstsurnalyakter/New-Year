@@ -157,8 +157,8 @@ body {
 /* Welcome section ends here */
 
 /* address section starts here */
-#address{
-    padding: 10px 0 80px 0;
+#address {
+  padding: 10px 0 80px 0;
 }
 
 .address-section {
@@ -180,7 +180,6 @@ body {
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
-
   display: flex;
   flex-direction: column;
 }
@@ -194,11 +193,7 @@ body {
 }
 
 .address-section .address-section-text button {
-  /* display: inline-flex; */
   padding: 16px 32px;
-  /* justify-content: center;
-  align-items: center; */
-  /* gap: 10px; */
   width: 180px;
   border-radius: 8px;
   background: #f00;
@@ -211,3 +206,61 @@ body {
   margin: 20px auto;
 }
 /* address section ends here */
+
+/* Coming Soon section starts here  */
+
+.coming-soon {
+  height: 482px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 10px; */
+}
+
+.coming-soon .coming-soon-section1 {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.coming-soon .coming-soon-section1 h5 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.coming-soon .coming-soon-section1 h3 {
+  color: #070211;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.coming-soon .coming-soon-section1 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.coming-soon .coming-soon-section2 {
+  width: 385px;
+  height: 463px;
+  border: 13px solid #f00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coming-soon .coming-soon-section2 img {
+  width: 303px;
+  /* height: 364.844px; */
+  /* border-radius: 364.844px;
+background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat; */
+}
+
+/* Coming Soon section ends here  */
